@@ -1,0 +1,16 @@
+{% extends "urlcutsite/base.html" %}
+  
+{% block title %}URLcut{% endblock %}
+  
+{% block content %}
+  
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="col-sm-3">
+            <p>URL: <a href="{{ url }}">{{ url }}</a> </p>
+            <p>Submitter: {{ submitter }}</p> 
+            <p>Counter: {{ counter }} </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
